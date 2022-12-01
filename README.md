@@ -10,7 +10,7 @@ I2C-RS232C Converter with Grove Connector
   * RS232CポートはD-sub9ピンのオスコネクタを搭載しています
   * I2C/UARTプロトコルブリッジSC16IS750は64bytesのバッファを内蔵しています
   * 7.3728MHzの水晶発振子を搭載しており、マイコンのメインクロックから独立してUARTのボーレート設定ができます  
-  * デフォルトのI2Cアドレスは0X9A(7bitアドレス)です  
+  * デフォルトI2Cアドレスは8bit:0x9A(7bit:0x4D)です  
 
 ## 注意 
   * Arduino Uno以外の場合はサンプルコード内SC16IS750.cppの29行目付近のWire定義を必要に応じて変更してください  
