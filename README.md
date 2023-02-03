@@ -13,6 +13,8 @@ I2C-RS232C Converter with Grove Connector
   * デフォルトI2Cアドレスは8bit:0x9A(7bit:0x4D)です  
 
 ## 注意 
+  * RS232Cレベル変換している信号はD-sub9ピンの受信の2ピン、送信の3ピンのみです  
+  * D-sub9ピンの受信の2ピン、送信の3ピン、GNDの5ピン以外はTTLレベルのため、未接続にしてください    
   * Arduino Uno以外の場合はサンプルコード内SC16IS750.cppの29行目付近のWire定義を必要に応じて変更してください  
 
 
